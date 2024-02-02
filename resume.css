@@ -1,0 +1,56 @@
+#heading{
+    text-align: center;
+    color: #1D438A;
+}
+
+#pd{
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+}
+
+.head{
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Noto Serif', serif;
+
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+
+}
+
+body h3{
+    font-family: 'Noto Serif', serif;
+}
+
+body p , li {
+    font-size: 20px;
+    margin: 5px;
+}
+
+table{
+    width: 80%;    
+}
+
+td{
+    width: 10%;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+
+
+.references{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.references p{
+    margin: 4px;
+    font-size: 1rem;
+}
