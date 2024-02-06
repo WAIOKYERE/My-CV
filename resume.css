@@ -54,3 +54,18 @@ td{
     margin: 4px;
     font-size: 1rem;
 }
+
+@media(min-width:319px) and (max-width: 480px){
+    body{
+      background-color: rgb(244, 239, 236);
+      width: 100%;
+      margin: 5px;
+    }
+
+    
+.references{
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+  }
