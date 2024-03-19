@@ -3,6 +3,30 @@
     color: #1D438A;
 }
 
+.personal-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+#downloadPDF {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#downloadPDF:hover{
+    color: black;
+    background-color: #16f11dd3;
+    transition-duration: 1s;
+}
+
 #pd{
     font-size: 18px;
     font-family: 'Noto Serif', serif;
@@ -59,7 +83,7 @@ td{
     body{
       background-color: rgb(244, 239, 236);
       width: 100%;
-      margin: 15px;
+      margin: 5px;
     }
 
     
@@ -67,5 +91,15 @@ td{
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
+}
+
+#downloadPDF {
+    background-color: #454cad; /* Green */
+    border: 1px solid black;
+    padding: 5px 5px;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    margin-top: 15px;
 }
   }
