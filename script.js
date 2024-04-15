@@ -1,4 +1,6 @@
 document.getElementById('downloadPDF').addEventListener('click', function() {
+    
+    document.getElementsByClassName("float-right")[0].classList.add("hidden");
 
     var element = document.getElementById('cvContainer');
 
@@ -10,6 +12,12 @@ document.getElementById('downloadPDF').addEventListener('click', function() {
         jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
     };
 
+
+    
     // Generate PDF
-    html2pdf().from(element).set(opt).save();
+    html2pdf().from(element).set(opt).save().then(function(){
+        document.getElementsByClassName("float-right")[0].classList.remove("hidden");
+
+    });
 });
+
