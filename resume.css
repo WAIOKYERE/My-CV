@@ -47,14 +47,14 @@
 }
 
 body{
-    width: 80%;
+    width: 95%;
     margin: auto;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 
 }
 
 body h3{
-    font-family: 'Noto Serif', serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body p , li {
@@ -62,12 +62,16 @@ body p , li {
     margin: 5px;
 }
 
+
 table{
-    width: 80%;    
+    width: 100%;   
+    font-family:sans-serif; 
 }
 
+
 td{
-    width: 10%;
+    width: 20%;
+    font-size: 1.1rem;
 }
 
 
@@ -80,7 +84,7 @@ td{
 
 .references p{
     margin: 4px;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 @media(min-width:319px) and (max-width: 480px){
